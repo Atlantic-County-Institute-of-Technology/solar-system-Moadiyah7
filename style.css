@@ -24,3 +24,53 @@ body.space {
 	top: 50%;
 	left: 50%;
 }
+
+/*KEYFRAMES START*/
+@keyframes move_earth{
+    0% {
+    transform: translateX(0px);
+}
+25%{
+    transform: translateX(450px);
+}
+50% {
+    transform: translateX(450px) translateY(120px)
+}
+75%{
+    transform: translateX(0px) translateY(120px)
+}
+
+100% {
+    transform: translateX(0px);
+    }
+
+
+
+}
+@keyframes rotate{
+	from{
+		transform: rotate(0deg);
+		}
+		to{
+			transform: rotate(360deg);
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+.earth{
+	position: relative;
+	top: 20%;
+	right: 45%;
+	animation: move_earth 10s ease-in-out;
+	animation: rotate 2s linear infinite;
+
+}
