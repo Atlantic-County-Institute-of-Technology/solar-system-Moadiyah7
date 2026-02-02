@@ -201,7 +201,7 @@ body.space {
 	animation: move_mars 18.8s infinite linear;
 }
 .venus{
-	animation: move_venus 5s infinite linear;
+	animation: move_venus 6s infinite linear;
 }
 .jupiter{
 	animation: move_jupiter 11.8s infinite linear;
@@ -216,8 +216,9 @@ body.space {
 	animation: move_neptune 163.7s infinite linear;
 }
 .mercury{
-	animation: move_earth 8s infinite linear;
+	animation: move_mercury 8s infinite linear;
 }
+
 
 .sun{
 	position: absolute;
